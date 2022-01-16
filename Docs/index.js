@@ -12,7 +12,7 @@ const questions = [
 	{
 		type: "input",
 		name: "description",
-		message: "Please write a short description of your project",
+		message: "Provide a short description explaining the what, why, and how of your project.  Use the following questions as a guide:\n	- What was your motivation?\n	- Why did you build this project?\n - What problem does it solve?\n	- What did you learn?\n",
 	},
 	{
 		type: "input",

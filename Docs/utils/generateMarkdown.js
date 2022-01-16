@@ -29,6 +29,8 @@ function generateMarkdown(data) {
    ${data.tests}
   ## Questions:
   ${data.questions}
+
+  
   ${renderLicenseBadge(data.license)}`;
 }
 
