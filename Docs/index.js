@@ -11,7 +11,7 @@ const questions = [
 	},
 	{
 		type: "input",
-		name: "contents",
+		name: "description",
 		message: "Please write about contents",
 	},
 	{
