@@ -11,7 +11,7 @@ const questions = [
 	},
 	{
 		type: "input",
-		name: "description",
+		name: "contents",
 		message: "Please write about contents",
 	},
 	{
@@ -56,8 +56,8 @@ function writeToFile(data) {
 
 // TODO: Create a function to initialize app
 function init() {
-	inquirer.prompt(questions).then((data) => {
-		writeToFile(generateMarkdown({ ...data }));
+	inquirer.prompt(questions).then((answers) => {
+		writeToFile(generateMarkdown({ ...answers }));
 	});
 }
 
