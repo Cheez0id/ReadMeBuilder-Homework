@@ -2,7 +2,8 @@
 
 A homework assignment to use node and npm to build a Readme Builder.
 
-
+## Walkthrough
+Homework\ReadMeBuilder-Homework\recording.mp4
 
 ## Resources to refer to:
 https://www.makeareadme.com/
